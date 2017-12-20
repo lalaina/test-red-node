@@ -8,5 +8,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("test",Test);
+    RED.nodes.registerType("node-tester",Test);
 }

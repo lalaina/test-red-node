@@ -19,7 +19,7 @@
   "homepage": "https://github.com/lalaina/test-red-node#readme",
   "node-red" : {
       "nodes": {
-          "test": "test.js"
+          "node-tester": "test.js"
       }
   },
   "dependencies": {}
