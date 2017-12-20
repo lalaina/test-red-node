@@ -13,15 +13,6 @@
             return this.name||"test";
         }
     });
-    RED.nodes.registerType('amount',{
-        category: 'config',
-        defaults: {
-            amount: {value:"",required:true}
-        },
-        label: function() {
-            return this.amount;
-        }
-    });
 </script>
 
 <script type="text/x-red" data-template-name="test">
@@ -32,12 +23,6 @@
     <div class="form-row">
         <label for="node-input-number"><i class="icon-tag"></i> Number</label>
         <input type="text" id="node-input-number" placeholder="Number">
-    </div>
-</script>
-<script type="text/x-red" data-template-name="amount">
-    <div class="form-row">
-        <label for="node-input-amount"><i class="icon-tag"></i> Amount</label>
-        <input type="text" id="node-input-amount" placeholder="Amount">
     </div>
 </script>
 
