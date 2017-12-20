@@ -1,0 +1,24 @@
+{
+  "name": "test-red-node",
+  "version": "1.0.0",
+  "description": "test-red-note",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalaina/test-red-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalaina/test-red-node/issues"
+  },
+  "homepage": "https://github.com/lalaina/test-red-node#readme",
+  "node-red" : {
+      "nodes": {
+          "test": "test.js"
+      }
+  }
+}
