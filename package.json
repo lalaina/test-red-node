@@ -1,6 +1,7 @@
 {
   "name": "test-red-node",
   "version": "1.0.0",
+  "keywords": [ "node-red" ],
   "description": "test-red-note",
   "main": "test.js",
   "scripts": {
